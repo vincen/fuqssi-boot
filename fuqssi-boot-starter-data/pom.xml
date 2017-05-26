@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.fuqssi.boot</groupId>
+    <artifactId>fuqssi-boot</artifactId>
+    <version>1.5.3.RELEASE</version>
+  </parent>
+
+  <artifactId>fuqssi-boot-starter-data</artifactId>
+  <packaging>jar</packaging>
+  
+  <name>fuqssi-boot-starter-data</name>
+  <description>Starter for using Spring Data JPA with Hibernate and Druid and mysql</description>
+  
+  <url>http://fuqssi.com</url>
+
+  <organization>
+    <name>fuqssi.com</name>
+    <url>http://fuqssi.com</url>
+  </organization>
+  <properties>
+    <fuqssi-boot-data.version>1.5.3.RELEASE</fuqssi-boot-data.version>
+    <java.version>1.8</java.version>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.fuqssi.boot</groupId>
+      <artifactId>fuqssi-boot-data</artifactId>
+      <version>${fuqssi-boot-data.version}</version>
+    </dependency>
+  </dependencies>
+
+</project>
