@@ -17,7 +17,7 @@
   <url>http://fuqssi.com</url>
 
   <scm>
-    <url>https://github.com/vincen/fuqssi-boot</url>
+    <url>git@github.com:vincen/fuqssi-boot.git</url>
   </scm>
 
   <licenses>
