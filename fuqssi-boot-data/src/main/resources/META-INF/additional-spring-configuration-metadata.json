@@ -95,12 +95,12 @@
 		{
 			"name": "filters",
 			"type": "java.lang.String",
-			"description": "For monitor: stat, for log: slf4j or log4j, for anti-sql-injection: wall",
+			"description": "For monitor: stat, for log: slf4j or log4j, for anti-sql-injection: wall"
 		},
 		{
 			"name": "druid.connection-properties",
 			"type": "java.lang.String",
-			"description": "For merge sql, and delay sql recording",
+			"description": "For merge sql, and delay sql recording"
 		}
 	],
 	"hints": []
