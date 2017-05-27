@@ -34,31 +34,31 @@ public class DruidAutoConfiguration {
 
     private String password;
 
-    private String driverClassName;
+    private String driverClassName = "com.mysql.jdbc.Driver";
 
-    private int initialSize;
+    private int initialSize = 1;
 
-    private int minIdle;
+    private int minIdle = 1;
 
-    private int maxActive;
+    private int maxActive = 4;
 
     private int maxWait;
 
-    private int timeBetweenEvictionRunsMillis;
+    private int timeBetweenEvictionRunsMillis = 60000;
 
-    private int minEvictableIdleTimeMillis;
+    private int minEvictableIdleTimeMillis = 300000;
 
-    private String validationQuery;
+    private String validationQuery = "SELECT 'x'";
 
-    private boolean testWhileIdle;
+    private boolean testWhileIdle = true;
 
-    private boolean testOnBorrow;
+    private boolean testOnBorrow = false;
 
-    private boolean testOnReturn;
+    private boolean testOnReturn = false;
 
-    private boolean poolPreparedStatements;
+    private boolean poolPreparedStatements = true;
 
-    private int maxPoolPreparedStatementPerConnectionSize;
+    private int maxPoolPreparedStatementPerConnectionSize = 20;
 
     private String filters;
 

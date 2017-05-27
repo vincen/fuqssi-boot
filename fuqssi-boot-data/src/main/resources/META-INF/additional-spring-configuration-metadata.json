@@ -16,78 +16,78 @@
 			"description": "Database username"
 		},
 		{
-			"name": "druid.driverClassName",
+			"name": "druid.driver-class-name",
 			"type": "java.lang.String",
 			"description": "Mysql jdbc name",
 			"defaultValue": "com.mysql.jdbc.Driver"
 		},
 		{
-			"name": "druid.initialSize",
+			"name": "druid.initial-size",
 			"type": "java.lang.Integer",
 			"description": "Pool initial size. Setting this property larger than 1 in production environment",
 			"defaultValue": 1
 		},
 		{
-			"name": "druid.minIdle",
+			"name": "druid.min-idle",
 			"type": "java.lang.Integer",
 			"description": "Pool min idle connection size. Setting this property larger than 1 in production environment",
 			"defaultValue": 1
 		},
 		{
-			"name": "druid.maxActive",
+			"name": "druid.max-active",
 			"type": "java.lang.Integer",
 			"description": "Pool max activit connection size. Setting this property larger than 1 in production environment",
 			"defaultValue": 4
 		},
 		{
-			"name": "druid.maxWait",
+			"name": "druid.max-wait",
 			"type": "java.lang.Integer",
 			"description": "Using this property carefully in production environment, it is reduce db performance"
 		},
 		{
-			"name": "druid.timeBetweenEvictionRunsMillis",
+			"name": "druid.time-between-eviction-runs-millis",
 			"type": "java.lang.Integer",
 			"description": "Keep this value",
 			"defaultValue": 60000
 		},
 		{
-			"name": "druid.minEvictableIdleTimeMillis",
+			"name": "druid.min-evictable-idle-time-millis",
 			"type": "java.lang.Integer",
 			"description": "Keep this value",
 			"defaultValue": 300000
 		},
 		{
-			"name": "druid.validationQuery",
+			"name": "druid.validation-query",
 			"type": "java.lang.String",
 			"description": "Keep this value",
 			"defaultValue": "SELECT 'x'"
 		},
 		{
-			"name": "druid.testWhileIdle",
+			"name": "druid.test-while-idle",
 			"type": "java.lang.Boolean",
 			"description": "Keep this value",
 			"defaultValue": true
 		},
 		{
-			"name": "druid.testOnBorrow",
+			"name": "druid.test-on-borrow",
 			"type": "java.lang.Boolean",
 			"description": "Keep this value",
 			"defaultValue": false
 		},
 		{
-			"name": "druid.testOnReturn",
+			"name": "druid.test-on-return",
 			"type": "java.lang.Boolean",
 			"description": "Keep this value",
 			"defaultValue": false
 		},
 		{
-			"name": "druid.poolPreparedStatements",
+			"name": "druid.pool-prepared-statements",
 			"type": "java.lang.Boolean",
 			"description": "Using PSCache, it is work in oracle, mysql5.5+",
 			"defaultValue": true
 		},
 		{
-			"name": "druid.maxPoolPreparedStatementPerConnectionSize",
+			"name": "druid.max-pool-prepared-statement-per-connection-size",
 			"type": "java.lang.Integer",
 			"description": "PSCache size",
 			"defaultValue": 20
@@ -96,13 +96,11 @@
 			"name": "filters",
 			"type": "java.lang.String",
 			"description": "For monitor: stat, for log: slf4j or log4j, for anti-sql-injection: wall",
-			"defaultValue": "stat,slf4j"
 		},
 		{
-			"name": "druid.connectionProperties",
+			"name": "druid.connection-properties",
 			"type": "java.lang.String",
 			"description": "For merge sql, and delay sql recording",
-			"defaultValue": "druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000"
 		}
 	],
 	"hints": []

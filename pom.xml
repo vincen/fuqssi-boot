@@ -14,11 +14,11 @@
   <packaging>pom</packaging>
 
   <name>fuqssi-boot</name>
-  <url>http://maven.apache.org</url>
+  <url>http://fuqssi.com</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
+  <scm>
+    <url>https://github.com/vincen/fuqssi-boot</url>
+  </scm>
 
   <licenses>
     <license>
@@ -36,8 +36,14 @@
       </roles>
     </developer>
   </developers>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
   <modules>
     <module>fuqssi-boot-data</module>
     <module>fuqssi-boot-starter-data</module>
   </modules>
+
 </project>

@@ -8,7 +8,7 @@
     <artifactId>fuqssi-boot</artifactId>
     <version>1.5.3.RELEASE</version>
   </parent>
-  
+
   <artifactId>fuqssi-boot-data</artifactId>
   <packaging>jar</packaging>
 
