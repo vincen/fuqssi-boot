@@ -6,7 +6,7 @@ Using maven dependency:
 <dependency>
   <groupId>com.fuqssi.boot</groupId>
   <artifactId>fuqssi-boot-starter-data</artifactId>
-  <version>1.5.3.RELEASE</version>
+  <version>1.5.6.RELEASE</version>
 </dependency>
 ```
 
