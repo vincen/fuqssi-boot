@@ -16,7 +16,7 @@
   <description>Starter for using Spring Data JPA with Hibernate and Druid and mysql</description>
   
   <properties>
-    <fuqssi-boot-data.version>1.5.3.RELEASE</fuqssi-boot-data.version>
+    <fuqssi-boot-data.version>1.5.6.RELEASE</fuqssi-boot-data.version>
     <java.version>1.8</java.version>
   </properties>
   <dependencies>
